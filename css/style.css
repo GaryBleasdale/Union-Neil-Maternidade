@@ -42,19 +42,19 @@ body {
 }
 
 .logo-image {
-  height: 90px !important;
+  height: 130px !important;
 }
 
 @media screen and (max-width:1200px) {
   .logo-image {
-    height: 65px !important;
+    height: 100px !important;
   }
 }
 
 @media screen and (max-width:992px) {
   .logo-image {
-    height: 55px !important;
-    width: 150px !important;
+    height: 85px !important;
+    width: 130px !important;
   }
 }
 
@@ -860,7 +860,7 @@ h3 {
   padding: 5px;
   right: 0;
   margin-top: -5px;
-  top: -36px;
+  top: -56px;
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
@@ -1311,7 +1311,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/department/shutterstock_1194118255.jpg);
+  background-image: url(../img/pexels-spencer-selover-428388.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
