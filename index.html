@@ -350,6 +350,74 @@
             width:100%
         }
 
+        .departamentos-container{
+            justify-content: space-around;
+            display:flex;
+            align-items:center;
+        }
+
+       
+        .service_area{
+            background-color: white;
+            margin-bottom: 90px;
+        }
+
+        .single_service{
+            border-radius: 5px;
+            margin: 10px 0px;
+        }
+
+        .single_service>h3,.single_service>p,.single_service>a{
+            color:white !important
+        }
+
+        .single_service>h3{
+            font-size:34px !important;
+            letter-spacing:1px;
+        }
+
+        .single_service>a{
+            color:darkslategray !important;
+            border: 1px solid #debc0d;
+            background-color: white;
+        }
+
+        .materno-infantil{
+            background-color: gray !important;
+            background-image: url("./img/Group\ 1\ \(2\).png");
+            background-size: cover;
+        }
+
+        .pediatrico{
+            background-color: gray !important;
+            background-image: url("./img/torsten-dederichs-XRcEsQKTWGk-unsplash\ 1.png") !important;
+            background-size: cover;
+        }
+
+        .mi-container,.pd-container{
+            width: 60vw !important;
+            padding: 20px 0px;
+            height: 300px;
+        }
+
+        @media only screen and (max-width:940px) {
+            .mi-container,.pd-container{
+                width: 80vw !important;
+        }
+        }
+
+        @media only screen and (max-width:1200px) {
+            .mi-container,.pd-container{
+                width: 80vw !important;
+        }
+        }
+
+        @media only screen and (max-width:940px) {
+            .mi-container,.pd-container{
+            width: 80vw !important;
+        }
+        }
+
     </style>
 </head>
 
@@ -408,7 +476,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Assistência Médica Domiciliar</h3>
+                                <h3>Assistência Médica Domiciliar Materno-Infantil</h3>
                                 <h5>Cuidamos de quem você ama com profissionais altamente especializados e com o carinho
                                     de quem realmente se importa!</h5>
                                 <!-- <a href="#" class="boxed-btn3">Check Our Services</a> -->
@@ -755,7 +823,37 @@
         </div>
     </div>
     <!-- business_expert_area_end  -->
-
+        <!-- service_area_start -->
+    
+        <div class="service_area">
+            <div class="container p-0">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section_title departamentos text-center mb-55" id="departamentos">
+                            <h3>Outros departamentos</h3>
+                            <p>Além de cuidados para pacientes idosos, também cuidamos de outros:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters departamentos-container">
+                    <div class="mi-container">
+                        <div class="single_service materno-infantil">
+                            <h3>Adulto & Geriátrico</h3>
+                            <p>Clinical excellence must be the priority for any health care service provider.</p>
+                            <a href="https://unionneil.com.br" class="boxed-btn3-white">Visitar página</a>
+                        </div>
+                    </div>
+                    <div class=" pd-container">
+                        <div class="single_service pediatrico ">
+                            <h3>Pediátrico</h3>
+                            <p>Clinical excellence must be the priority for any health care service provider.</p>
+                            <a href="#" class="boxed-btn3-white">Visitar página</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- Emergency_contact start -->
     <div class="Emergency_contact section" id="contato">
         <div class="conatiner-fluid p-0">,
